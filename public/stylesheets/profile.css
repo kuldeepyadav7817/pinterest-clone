@@ -1,0 +1,151 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-position: center; 
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    background: #000;
+  }
+  
+  .containerper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  max-width: 80%;
+
+  }
+  
+  .cardper {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .username {
+    font-size: 18px;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .tagline,
+  .description {
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ce0202;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: 600;
+    
+  }
+  
+  .button:hover {
+    background-color: #f7072f;
+  }
+  
+
+ .container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  max-width: 80%;
+ } 
+
+ .flex{
+  display: flex;
+  flex-wrap: wrap;
+ gap: 28px;
+ width: 80%;
+ margin-left: 10%;
+ margin-right: 10%;
+ align-items: start;
+ 
+ }
+
+ .profile-photo{
+  position: relative;
+ }
+ .edit-icon{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+ }
+
+
+
+ nav {
+  background-color: #3c3b3b;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+nav span {
+  font-size: 1.5em;
+  margin-left: 10px;
+  color: #f57d7d;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+
+@media screen and (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  nav span {
+      margin: 10px;
+  }
+  nav a {
+      margin: 5px 10px;
+  }
+}
+
+.logout{
+  color: white;
+  background:red;
+  outline: none;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 2px;
+  flex: none;
+  height: 5%;
+  margin-top: 4%;
+}
